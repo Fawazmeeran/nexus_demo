@@ -61,5 +61,17 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <distributionManagement>
+	   <repository>
+		 <id>deployment</id> <!-- this ID should match with server id which we configure in settings.xml file. -->
+		 <name>Nexus Release Repository</name>
+		 <url>http://localhost:8081/#admin/repository/repositories:maven-releases</url>
+	  </repository>
+	  <snapshotRepository>
+		<id>deployment</id>
+		<name>Nexus Snapshots Repository</name>
+		<url>http://localhost:8081/#admin/repository/repositories:maven-snapshots</url>
+	</snapshotRepository>
+</distributionManagement>
   </build>
 </project>
