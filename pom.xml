@@ -33,11 +33,11 @@
         <name>BLRJPT233203D-releases</name>
         <url>http://localhost:8081/artifactory/lib-release-local</url>
      </repository>
-     <snapshotRepository>
+     <snapshots>
         <id>snapshots</id>
         <name>BLRJPT233203D-snapshots</name>
         <url>http://localhost:8081/artifactory/lib-release-local</url>
-     </snapshotRepository>
+     </snapshots>
      </repositories>
      
    
