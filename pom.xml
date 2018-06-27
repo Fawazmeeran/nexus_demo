@@ -38,12 +38,12 @@
   </dependencies>
   <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>Deployment</id>
         <name>RaghavendraReddy-releases</name>
         <url>http://localhost:8081/artifactory/Deployment</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>Deployment</id>
         <name>RaghavendraReddy-snapshots</name>
         <url>http://localhost:8081/artifactory/Deployment</url>
     </snapshotRepository>
