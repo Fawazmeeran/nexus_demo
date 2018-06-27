@@ -26,7 +26,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-     <distributionManagement>
+     
       <repository>
         <id>central</id>
         <name>BLRJPT233203D-releases</name>
@@ -37,7 +37,7 @@
         <name>BLRJPT233203D-snapshots</name>
         <url>http://localhost:8081/artifactory/lib-release-local</url>
       </snapshotRepository>
-     </distributionManagement>
+     
      </dependency>
     </dependencies>
 
