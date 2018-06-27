@@ -25,21 +25,22 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+   </dependencies>
+    
      
-      <repository>
+    <repository>
         <id>central</id>
         <name>BLRJPT233203D-releases</name>
         <url>http://localhost:8081/artifactory/lib-release-local</url>
-      </repository>
-      <snapshotRepository>
+     </repository>
+     <snapshotRepository>
         <id>snapshots</id>
         <name>BLRJPT233203D-snapshots</name>
         <url>http://localhost:8081/artifactory/lib-release-local</url>
-      </snapshotRepository>
+     </snapshotRepository>
      
-     </dependency>
-    </dependencies>
+   
+    
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
