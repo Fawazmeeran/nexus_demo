@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh "'/Users/athena/Desktop/maven/apache-maven-3.5.3/bin/mvn' clean package"
+        sh "/Users/athena/Desktop/maven/apache-maven-3.5.3/bin/mvn clean package"
       }
     }
     stage('Deploy') {
